@@ -16,7 +16,7 @@ O TEMPLATE METHOD foi usado na classe abstrata Funcionario com a implementação
 - Comissionado: Recebe um bônus equivalente ao valor de seu salário mensal fixo, sendo um imposto de 5% deduzido do salário total após a inclusão do bônus;
 - Assalariado: Recebe um bônus equivalente a 1/5 valor de seu salário mensal fixo, sendo um imposto de 10% deduzido do salário total após a inclusão do bônus;
 
-- O método calcBonus criado no template foi usado na classe Salario na funcionalidade chamada addBonus.
+- O método calcBonus criado no template foi usado na classe Salario no método chamado addBonus.
 
 O COMMAND PATTERN foi usado para fazer o menu na classe main, usando as classes Command e RemoteControl (para vincular as funcionalidades selecionadas pelo usuário aos comandos); 
 
